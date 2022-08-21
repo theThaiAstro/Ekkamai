@@ -1,0 +1,24 @@
+module.exports = {
+	arrowParens: 'avoid',
+	trailingComma: 'es5',
+	tabWidth: 4,
+	semi: true,
+	useTabs: true,
+	singleQuote: true,
+	printWidth: 160,
+	importOrder: [
+		'^@assets/(.*)$',
+		'^@components/(.*)$',
+		'^@constants/(.*)$',
+		'^@data/(.*)$',
+		'^@helpers/(.*)$',
+		'^@interfaces/(.*)$',
+		'^@layouts/(.*)$',
+		'^@libs/(.*)$',
+		'^@styles/(.*)$',
+
+		'^(../)',
+		'^(./)',
+	],
+	importOrderSeparation: true,
+};

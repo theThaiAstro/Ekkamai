@@ -1,0 +1,16 @@
+{
+    "name": "ekkamai",
+    "version": "1.0.0",
+    "description": "TAS's common package",
+    "main": "index.js",
+    "prettier": "./src/.prettierrc",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "Thammarith",
+    "license": "GPL-2.0-only",
+    "devDependencies": {
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4"
+    }
+}
