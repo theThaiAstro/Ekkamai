@@ -1,8 +1,10 @@
 {
 	"name": "ekkamai",
-	"version": "1.0.1-rc2",
+	"version": "1.0.1-rc3",
 	"description": "TAS's common package",
-	"main": "index.js",
+	"main": "./lib/cjs/index.js",
+	"module": "./lib/esm/index.js",
+	"types": "./lib/esm/index.d.ts",
 	"prettier": "./src/.prettierrc",
 	"scripts": {
 		"build": "npm run build:esm && npm run build:cjs",
