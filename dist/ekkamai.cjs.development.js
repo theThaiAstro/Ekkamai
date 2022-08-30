@@ -2,11 +2,21 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var React = require('react');
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var Thing = function Thing() {
-  return React.createElement("div", null, "the snozzberries taste like snozzberries");
+var React = _interopDefault(require('react'));
+
+var ButtonComponent = function ButtonComponent(props) {
+  var _props$text;
+
+  return React.createElement("button", null, (_props$text = props.text) != null ? _props$text : 'No text');
 };
 
-exports.Thing = Thing;
+var sayHello = function sayHello(text) {
+  console.log("Hello, " + (text != null ? text : 'world'));
+  return "Hello, " + (text != null ? text : 'world ja');
+};
+
+exports.Button = ButtonComponent;
+exports.hello = sayHello;
 //# sourceMappingURL=ekkamai.cjs.development.js.map

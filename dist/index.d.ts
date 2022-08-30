@@ -1,2 +1,2 @@
-/// <reference types="react" />
-export declare const Thing: () => JSX.Element;
+export { default as Button } from './components/Button';
+export { default as hello } from './lib/hello';
