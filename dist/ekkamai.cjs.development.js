@@ -9,4 +9,4 @@ var Thing = function Thing() {
 };
 
 exports.Thing = Thing;
-//# sourceMappingURL=mylib.cjs.development.js.map
+//# sourceMappingURL=ekkamai.cjs.development.js.map

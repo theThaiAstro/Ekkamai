@@ -5,4 +5,4 @@ var Thing = function Thing() {
 };
 
 export { Thing };
-//# sourceMappingURL=mylib.esm.js.map
+//# sourceMappingURL=ekkamai.esm.js.map
